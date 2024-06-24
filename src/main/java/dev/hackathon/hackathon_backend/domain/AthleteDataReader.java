@@ -6,7 +6,7 @@ import java.nio.file.Paths;
 import java.util.stream.Stream;
 
 public class AthleteDataReader {
-    private static final String FILE_PATH = "src/main/resources/ATHLE_Finales_CM_JO_1983_2022_.csv";
+    private static final String FILE_PATH = "src/main/resources/Athle_D1.csv";
 
     public Stream<AthletePerformance> readData() {
         try {
